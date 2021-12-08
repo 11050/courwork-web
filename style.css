@@ -636,8 +636,9 @@ padding: 0 50px;
 
 
 
-
-
+.list-inline{
+  list-style-type: none;
+}
 
 div.gallery {
   margin: 8px;
@@ -956,4 +957,22 @@ div.desc {
 
 
 
+footer {
+  background: #f3f3f3;
+  text-align: center;
+  padding: 30px 0;
+ 
+}
+.nav-footer{
+
+  justify-content: space-between;
+  height: 1;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  text-align: center;
   
+}
+.list-inline{
+  list-style-type:none;
+}
